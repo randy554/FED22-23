@@ -36,15 +36,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  
+  Website van telecom provider Tele2:
+  
+-   https://www.tele2.nl/
+-   https://www.tele2.nl/klantenservice
+  
+  
+  
+  <!-- link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp -->
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home pagina  
+  <!-- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina"> -->
+  <!-- <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_home.png" width="375px" alt="homepagina tele2">  -->
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Klantenservice pagina  
+  <!-- <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_klantenservice.png" width="375px" alt="klantenservice pagina tele2">  -->
+  
+  
+|  Home pagina | Klantenservicepagina | 
+|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------| 
+| <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_home.png" alt="homepagina tele2"> | <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_klantenservice.png" alt="klantenservice pagina tele2"> | 
  
 </details>
 
