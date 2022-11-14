@@ -59,7 +59,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 |  Home pagina | Klantenservicepagina | 
 |:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------| 
-| <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_home.png" alt="homepagina tele2"> | <img src="https://github.com/randy554/FED22-23/blob/main/images/tele2_klantenservice.png" alt="klantenservice pagina tele2"> | 
+| <img src="[![resized-1.jpg](https://i.postimg.cc/Df15vd3h/resized-1.jpg)](https://postimg.cc/hhPVMmGZ)" alt="homepagina tele2"> | <img src="[![resized-2.jpg](https://i.postimg.cc/QCqyHcPf/resized-2.jpg)](https://postimg.cc/1VfHdVyF)" alt="klantenservice pagina tele2"> | 
  
 </details>
 
