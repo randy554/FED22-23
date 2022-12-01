@@ -65,6 +65,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
+  
+  [![Whats-App-Image-2022-11-22-at-17-13-33.jpg](https://i.postimg.cc/WzNs9pQW/Whats-App-Image-2022-11-22-at-17-13-33.jpg)](https://postimg.cc/MMLkHwZV)
+  
+  [![Whats-App-Image-2022-11-22-at-17-13-33-2.jpg](https://i.postimg.cc/Wz5TxLV2/Whats-App-Image-2022-11-22-at-17-13-33-2.jpg)](https://postimg.cc/FkkMJ61q)
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
