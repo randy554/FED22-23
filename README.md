@@ -72,25 +72,63 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Om nuttig gebruik te kunnen maken van de screenreader op macOS, wordt er eigenlijk best wel veel gevraagd om begrijpen. Zo stond hij standaard bij mij ingesteld om alleen links te lezen op pagina’s en dacht ik tot ik hulp kreeg dat de andere teksten op mijn site niet toegankelijk waren. Ook was mijn voice assistent een snel Engels sprekende man, dit was niet bepaald handig voor mijn site (voornamelijk NL content). Ik heb hiervoor een NL assistent Alex voor gedownload.
+
+
+ #### Cheatsheet
+ - Screenreader in- of uitschakelen op macOS: cmd + F5
+ - Instellingen: System Preferences → Accessibility → VoiceOver
+ - Keyboard help: ctrl + opt + k
+ - Voice veranderen: cmd + shift + k + arrow up/down
+ - VoiceOver rotor: ctrl + alt+ cmd + left/right arrow
+ 
+ <br>
+ [![voice-Rotor.png](https://i.postimg.cc/d1mqmZSZ/voice-Rotor.png)](https://postimg.cc/47ykXyGX)
+ 
+ VoiceOver rotor
+ 
+ De content op de Tele2 site is vrij toegankelijk. Afbeeldingen worden goed omschreven en lijsten worden netjes afgegaan. Alles leek goed te zijn tot het Stein en ik opviel dat de kopjes op de site werden overgeslagen. We namen een kijkje met de VoiceOver rotor en zagen dat inderdaad de optie headings niet beschikbaar was voor de site. Dit is ook het stukje toegankelijkheid wat ik wil verbeteren in mijn versie van de site.
+ 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+[![image.png](https://i.postimg.cc/g2nHsDMC/image.png)](https://postimg.cc/MnJBKyJ5)
+
+
+De site is goed navigeerbaar via de tab er wordt geen content overgeslagen. 
+Opvallend is wel bij het tabben in de main nav een verborgen menu wordt getoond. Ik zou als toevoeging dit ook voor het zoekveld kunnen implementeren.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Met het parkinson simulatie apparaat is het menu moeilijk te navigeren laat staan het submenu. Ik denk dat dit niet zo zeer aan de site ligt maar meer aan de beperking. Buttons op de site zijn wel redelijk groot waardoor het iets minder moeite kost om deze te klikken. De grote geldt ook voor andere prominente elementen op de pagina. 
+
+Met de ballonen test was het, Navigatie is wel te doen maar, de lopende tekst is moeilijk te lezen.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+#### Brillen
+Met de brillen was vrij lastig. Met sommige brillen kon je maar een gedeelte van de site zien en moest je met je hoofd draaien om het resterende gedeelte te zien. Met andere brillen werd het zicht zo wazig waardoor je de lopende tekst niet meer kon lezen.
+
+#### Kleur
+
+Hover kleuren zijn vaak lastig te zien op buttons.
+
+[![image.png](https://i.postimg.cc/g2nHsDMC/image.png)](https://postimg.cc/MnJBKyJ5)
+
+Monochromosy
+
+[![image.png](https://i.postimg.cc/QxPT8rbz/image.png)](https://postimg.cc/BXT6pkR5)
+
+
+Contrast is soms moeilijk te zien bij hover state. Bij sommige knoppen vult de knop op en dit is voor mensen die kleurenblind zijn wel goed te zien
+
+[![image.png](https://i.postimg.cc/nhFhfS8W/image.png)](https://postimg.cc/jL1bzXS6)
+
+Op de site (https://www.spoorwegmuseum.nl/) van Stein wordt zijn de hover kleuren ook best subtiel maar maken ze handig gebruik van een animatie waardoor iemand die kleurenblind toch goed de state kan herkennen.
 
 </details>
 
