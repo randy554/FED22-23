@@ -133,8 +133,9 @@ Op de site (https://www.spoorwegmuseum.nl/) van Stein wordt zijn de hover kleure
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Homepagina.png" width="375px" alt="tele2 homepagina">
 
+  <!--
 ### dynamisch deel (bijv menu):
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -143,7 +144,7 @@ Op de site (https://www.spoorwegmuseum.nl/) van Stein wordt zijn de hover kleure
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
-  <img src="readme-images/Homepagina.png" width="375px" alt="tele2 homepagina">
+-->
 
 </details>
 
