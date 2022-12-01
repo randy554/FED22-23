@@ -160,8 +160,8 @@ Op de site (https://www.spoorwegmuseum.nl/) van Stein wordt zijn de hover kleure
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  
+De oefenopdrachten opdrachten helpen enorm. Via codepen kan ik snel en veilig experimenteren en een concept begrijpen. Vooral flexbox begin ik beter door te krijgen. Wat ik op dit moment vrij lastig vindt is een breakdown maken van mijn site. Ik blijf het lastig vinden welke elementen juist zijn om een bepaalde structuur op te zetten.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
