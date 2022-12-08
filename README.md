@@ -86,7 +86,6 @@ Om nuttig gebruik te kunnen maken van de screenreader op macOS, wordt er eigenli
  
  De content op de Tele2 site is vrij toegankelijk. Afbeeldingen worden goed omschreven en lijsten worden netjes afgegaan. Alles leek goed te zijn tot het Stein en ik opviel dat de kopjes op de site werden overgeslagen. We namen een kijkje met de VoiceOver rotor en zagen dat inderdaad de optie headings niet beschikbaar was voor de site. Dit is ook het stukje toegankelijkheid wat ik wil verbeteren in mijn versie van de site.
 
-
 #### Muis en Toetsenbord
 
 [![image.png](https://i.postimg.cc/g2nHsDMC/image.png)](https://postimg.cc/MnJBKyJ5)
@@ -126,20 +125,24 @@ Op de site (https://www.spoorwegmuseum.nl/) van Stein wordt zijn de hover kleure
 
 </details>
 
-## Breakdownschets (week 1)
+## Breakdownschets (week 3)
 
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
 
-  <img src="readme-images/Homepagina.png" width="375px" alt="tele2 homepagina">
+| Home pagina                                                                   | Klantenservicepagina                                                                              |
+| :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| <img src="readme-images/Homepagina.png" width="375px" alt="tele2 homepagina"> | <img src="readme-images/Klantenservicepagina.png" width="375px" alt="tele2 Klantenservicepagina"> |
 
-  <!--
 ### dynamisch deel (bijv menu):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+**Menu**
 
+  <img src="readme-images/Menu.png" width="375px" alt="breakdown van een dynamisch deel">
+
+  <!--
 ### wellicht nog een dynamisch deel (bijv filter):
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -161,20 +164,39 @@ De oefenopdrachten helpen enorm. Via codepen kan ik snel en veilig experimentere
 
 samen met je groepje opstellen
 
-| idelene        | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| vraag over dit | en dit             | en ik dit    | en dan ik dat    |
-| en over dat    | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Arsen                                                                                                              | Randy                                     | Josette                                                           | Tim                                                                 |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Semantiek → klopt het dat bepaalde elementen onder secties vallen → zie schetsen.                                  | Hoe pak je het maken van een submenu aan? | Kloppen mijn breakdown schetsen?                                  | Mag je bij onderstreepte woord een `<u>` element gebruiken?         |
+| In welke mate en op watvoor manier is het van belang dat wij rekening houden met toegankelijkheid voor gebruikers? | Wanneer is iets een section?              | De website veranderd af en toe, welke versie moet ik dan namaken? | Mag je bij schuingedrukt woord een `<em>`, `<i>` element gebruiken? |
 
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
+- Tekst in de `<title>` Consistent houden of eerst de pagina titel en dan de naam of andersom maar dit wel overal hetzelfde.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+**Navigatie**
+
+- Elementen die buiten het hamburgermenu blijven staan, maar wel bij de navigatie horen, krijgen hun eigen navigatie. Zo kan je het ene menu verbergen onder een button en de ander niet.
+
+**Titels**
+
+- H1 kan op de startpagina ook een logo zijn of verborgen omdat er gewoon geen h1 is. Op de andere pagina’s is meestal wel een duidelijke h1.
+- H1 is belangrijk voor google resultaten.
+- H2 moet altijd voor de h3 etc. In de CSS kan de volgorde worden aangepast.
+
+**Img**
+
+- Als img als decoratie wordt gebruikt moet de alt worden leeg gelaten of de afbeelding moet via css worden ingevoegd.
+
+**Links/buttons**
+
+- Links gaan naar andere pagina.
+- Buttons blijven op dezelfde pagina, voeren een actie uit. Bijv. hamburger menu in- en uitvouwen is een button.
+- Veel website laten links zien als buttons.
+- Onderscheid is belangrijk voor screenreaders. Zo kan je deze alle linkjes of alle formulieren laten afgaan, maar dan moet wel duidelijk zijn wat wat is.
+
+**Talen**
+
+- Engelse woorden (of van andere talen) op een Nederlandse site, kun je voorzien van een span en een lang attribute.
 
 </details>
 
