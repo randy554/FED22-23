@@ -19,6 +19,7 @@ summary {
   /* startje */
   --color-text: #111;
   --color-background: #eee;
+  --tele2-base-yellow: #ffd300;
 }
 
 /****************/
@@ -32,6 +33,7 @@ body {
   background-color: var(--color-background);
 }
 
-header > a path {
-  fill: #ffd300;
+header > a path,
+footer > section a path {
+  fill: var(--tele2-base-yellow);
 }
