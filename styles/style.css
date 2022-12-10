@@ -19,15 +19,12 @@ summary {
   /* startje */
   --color-text: #111;
   --color-background: #eee;
-  --tele2-base-yellow: #ffd300;
+  --color-tele2-yellow: #ffd300;
 }
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+/*******************/
+/* GENERAL STYLING */
+/*******************/
 body {
   color: var(--color-text);
   background-color: var(--color-background);
@@ -35,5 +32,13 @@ body {
 
 header > a path,
 footer > section a path {
-  fill: var(--tele2-base-yellow);
+  fill: var(--color-tele2-yellow);
 }
+
+/****************/
+/* HEADER */
+/****************/
+
+/****************/
+/* FOOTER */
+/****************/

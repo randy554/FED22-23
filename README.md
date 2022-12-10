@@ -324,8 +324,14 @@ Korte omschrijving met plaatjes
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. **Voor het wijzigen van de favicon** <br>
+   https://www.w3schools.com/html/html_favicon.asp
+   https://www.w3schools.com/tags/tag_link.asp
+   https://www.iana.org/assignments/media-types/media-types.xhtml#examples
+   https://www.w3schools.com/tags/att_link_sizes.asp
+
+2. **Cheatsheet voor het bekijken van CSS selecteren** <br>
+   https://www.w3schools.com/cssref/css_selectors.php
 3. ...
 
 </details>
