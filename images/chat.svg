@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/chat</title>
+    <defs>
+        <path d="M4.03368889,0 C1.80585778,0 0,1.81119611 0,4.04515499 L0,11.3973728 C0,13.6313317 1.80585778,15.4425278 4.03368889,15.4425278 L9.62628444,15.4425278 L14.5677067,19.1329885 C15.6739556,19.9530909 16.2688889,19.5430397 15.8884178,18.2185744 L15.0933333,15.4425278 L15.9640622,15.4425278 C18.1918933,15.443553 19.9987733,13.633382 20,11.3994231 L20,4.04515499 C20,1.81119611 18.1941422,0 15.9661067,0 L4.03368889,0 Z" id="path-1"></path>
+    </defs>
+    <g id="AB---Chatbot-Mobiel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-937.000000, -429.000000)">
+            <g id="Chat" transform="translate(158.000000, 232.000000)">
+                <g id="Content" transform="translate(48.000000, 48.000000)">
+                    <g id="Input-+-button" transform="translate(0.000000, 124.000000)">
+                        <g id="BTN/Fixed/Primary/Medium/1.-Default" transform="translate(568.000000, 0.000000)">
+                            <g id="Group-2" transform="translate(24.000000, 22.000000)">
+                                <g id="Group" transform="translate(137.000000, 1.000000)">
+                                    <g id="Colors/1.-Neutral/5.-Black" transform="translate(2.000000, 2.000000)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Fill-1" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                        <g id="Group" mask="url(#mask-2)">
+                                            <g transform="translate(-2.000000, -2.000000)" id="Colors/1.-Neutral/5.-Black">
+                                                <polygon id="bg" fill="#FFFFFF" points="-6.5187407e-17 2.85167653e-16 24 2.85167653e-16 24 24 0 24"></polygon>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

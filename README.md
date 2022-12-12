@@ -332,6 +332,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 2. **Cheatsheet voor het bekijken van CSS selecteren** <br>
    https://www.w3schools.com/cssref/css_selectors.php
-3. ...
+
+3. **Voor het maken van een formulier** <br>
+   https://www.w3schools.com/html/html_form_elements.asp
+   https://www.w3schools.com/html/html_form_input_types.asp
+   https://www.w3schools.com/html/html_form_attributes.asp
 
 </details>

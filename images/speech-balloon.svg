@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>symbols/speech-balloon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="40.0008333%" cy="41.737719%" fx="40.0008333%" fy="41.737719%" r="65.061872%" gradientTransform="translate(0.400008,0.417377),scale(0.874117,1.000000),translate(-0.400008,-0.417377)" id="radialGradient-1">
+            <stop stop-color="#ECF1F5" offset="0%"></stop>
+            <stop stop-color="#E9EFF3" offset="40.62%"></stop>
+            <stop stop-color="#E0E7EB" offset="68.87%"></stop>
+            <stop stop-color="#D1D9DE" offset="93.29%"></stop>
+            <stop stop-color="#CBD4D9" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="symbols/speech-balloon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+        <g id="speech-balloon" fill-rule="nonzero">
+            <path d="M4.26666667,23.0773333 C4.26666667,23.0773333 7.55893333,26.9701333 4.26666667,32 C9.73973333,30.9834667 10.8512,26.3210667 10.8512,26.3210667 L4.26666667,23.0773333 Z" id="Path" fill="#CFD8DD"></path>
+            <path d="M16,27.9717333 C-5.33333333,27.9717333 -5.33333333,0 16,0 C37.3333333,0 37.3333333,27.9717333 16,27.9717333 Z" id="Path" fill="url(#radialGradient-1)"></path>
+            <circle id="Oval" fill="#99A8AE" cx="9.06026667" cy="14.4" r="2.13333333"></circle>
+            <circle id="Oval" fill="#99A8AE" cx="16" cy="14.4" r="2.13333333"></circle>
+            <circle id="Oval" fill="#99A8AE" cx="22.9397333" cy="14.4" r="2.13333333"></circle>
+        </g>
+    </g>
+</svg>

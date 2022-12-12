@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>objects/telephone-receiver</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.3337379%" y1="68.4962893%" x2="59.2365356%" y2="42.4140828%" id="linearGradient-1">
+            <stop stop-color="#302C3B" offset="42.42%"></stop>
+            <stop stop-color="#464A56" offset="65.35%"></stop>
+            <stop stop-color="#565F68" offset="86.12%"></stop>
+            <stop stop-color="#5B666E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="objects/telephone-receiver" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telephone-receiver" transform="translate(3.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M18.2549333,19.3194667 C16.8352,20.3674667 15.7936,21.6965333 15.1728,23.1050667 C13.7354667,21.6789333 12.2885333,20.0298667 10.9029333,18.2 C9.51253333,16.3589333 8.31946667,14.5109333 7.34186667,12.7370667 C8.8832,12.5472 10.4672,11.9376 11.8853333,10.8906667 C13.7344,9.52533333 5.59413333,-1.2448 3.74453333,0.12 C1.15466667,2.03146667 -0.1856,4.87733333 0.0213333333,7.4336 C0.231466667,10.8554667 2.62293333,16.1637333 6.576,21.3941333 C11.1205333,27.4085333 16.3530667,31.496 19.6394667,31.9109333 C21.7978667,32.2453333 24.2810667,31.6517333 26.3957333,30.0922667 C28.2453333,28.7253333 20.1045333,17.9536 18.2549333,19.3194667 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

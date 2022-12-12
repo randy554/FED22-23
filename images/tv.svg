@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>custom/tv</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0.023754223%" id="linearGradient-1">
+            <stop stop-color="#141414" offset="0%"></stop>
+            <stop stop-color="#3D3C3C" offset="99.9762458%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#702082" offset="0%"></stop>
+            <stop stop-color="#942FAB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="135.242424%" x2="50%" y2="35.2424242%" id="linearGradient-3">
+            <stop stop-color="#702082" offset="0%"></stop>
+            <stop stop-color="#702082" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="custom/tv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tv">
+            <polygon id="Path" points="0 0 32 0 32 32 0 32"></polygon>
+            <path d="M31,23 C31,23.5522847 30.5522847,24 30,24 L2,24 C1.44771525,24 1,23.5522847 1,23 L1,5.5 C1,4.94771525 1.44771525,4.5 2,4.5 L30,4.5 C30.5522847,4.5 31,4.94771525 31,5.5 L31,23 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero" points="2.5 6 29.5 6 29.5 22.5 2.5 22.5"></polygon>
+            <polygon id="Path" fill="#4B4B4B" fill-rule="nonzero" points="13.5 24 18.5 24 18.5 26.505 13.5 26.505"></polygon>
+            <polygon id="Path" fill="#202020" fill-rule="nonzero" opacity="0.4" points="13.5 24 18.5 24 18.5 26.5 13.5 26.5"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero" points="22.5 6 2.5 6 2.5 22.5 6 22.5"></polygon>
+            <polygon id="Path" fill="#317CB3" fill-rule="nonzero" opacity="0.3" points="2.5 6 29.5 6 29.5 6.5 2.5 6.5"></polygon>
+            <path d="M9,27.5 L9,26.5 C9,26.2238576 9.22385763,26 9.5,26 L22.5,26 C22.7761424,26 23,26.2238576 23,26.5 L23,27.5" id="Path" fill="#202020" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#000000" fill-rule="nonzero" opacity="0.3" points="13.5 24 18.5 24 18.5 25 13.5 25"></polygon>
+            <path d="M13,10.5506037 L13,17.6844892 C13,18.0182787 13.3656442,18.226133 13.6567596,18.0582193 L19.7833586,14.5234736 C20.0707682,14.3575978 20.072827,13.9463723 19.7858292,13.7780511 L13.6596419,10.1789113 C13.3685265,10.0077372 13,10.2155915 13,10.5506037" id="Mask" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/shopping basket</title>
+    <defs>
+        <radialGradient cx="40.0008333%" cy="41.737719%" fx="40.0008333%" fy="41.737719%" r="65.061872%" gradientTransform="translate(0.400008,0.417377),scale(0.874117,1.000000),translate(-0.400008,-0.417377)" id="radialGradient-1">
+            <stop stop-color="#ECF1F5" offset="0%"></stop>
+            <stop stop-color="#E9EFF3" offset="40.62%"></stop>
+            <stop stop-color="#E0E7EB" offset="68.87%"></stop>
+            <stop stop-color="#D1D9DE" offset="93.29%"></stop>
+            <stop stop-color="#CBD4D9" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="AB---Chatbot-Mobiel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-206.000000, -505.000000)">
+            <g id="Chat" transform="translate(158.000000, 232.000000)">
+                <g id="Content" transform="translate(48.000000, 48.000000)">
+                    <g id="Questions" transform="translate(0.000000, 223.000000)">
+                        <g id="Icons/shopping-basket" transform="translate(0.000000, 2.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            <g id="speech-balloon" fill-rule="nonzero">
+                                <path d="M3.2,17.308 C3.2,17.308 5.6692,20.2276 3.2,24 C7.3048,23.2376 8.1384,19.7408 8.1384,19.7408 L3.2,17.308 Z" id="Path" fill="#CFD8DD"></path>
+                                <path d="M12,20.9788 C-4,20.9788 -4,0 12,0 C28,0 28,20.9788 12,20.9788 Z" id="Path" fill="url(#radialGradient-1)"></path>
+                                <circle id="Oval" fill="#99A8AE" cx="6.7952" cy="10.8" r="1.6"></circle>
+                                <circle id="Oval" fill="#99A8AE" cx="12" cy="10.8" r="1.6"></circle>
+                                <circle id="Oval" fill="#99A8AE" cx="17.2048" cy="10.8" r="1.6"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
