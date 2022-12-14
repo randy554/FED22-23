@@ -338,4 +338,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
    https://www.w3schools.com/html/html_form_input_types.asp
    https://www.w3schools.com/html/html_form_attributes.asp
 
+4. **Voor het begrijpen van de `<details>` & `<summary>` elementen** <br>
+   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
 </details>
