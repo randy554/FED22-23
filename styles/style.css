@@ -31,6 +31,7 @@ summary {
   --color-background: #eee;
   --color-tele2-yellow: #ffd300;
   --color-tele2-black: #000;
+  --color-tele2-border-grey: #f2f2f2;
 }
 
 /*******************/
@@ -72,6 +73,14 @@ header > nav > ul {
 
 header nav:first-of-type svg {
   fill: var(--color-text-white);
+}
+
+header nav:nth-of-type(2) ul {
+  background-color: var(--color-text-white);
+}
+
+header nav:nth-of-type(2) ul > li {
+  padding: 1em;
 }
 
 header nav:nth-of-type(2) > ul a {
