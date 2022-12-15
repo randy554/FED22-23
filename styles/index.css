@@ -12,9 +12,19 @@
 /* MAIN */
 /********/
 
+main > h1 {
+  color: var(--color-text-white);
+  background-color: var(--color-tele2-black);
+}
+
 /*************/
 /* SECTION 1 */
 /*************/
+
+main section:first-of-type {
+  background-color: var(--color-tele2-black);
+  color: var(--color-text-white);
+}
 
 /*************/
 /* SECTION 2 */
@@ -35,6 +45,10 @@
 /*************/
 /* SECTION 6 */
 /*************/
+
+main > section:nth-of-type(6) ul:first-of-type {
+  list-style-image: url("../images/icons/check_black_24dp.svg");
+}
 
 /*************/
 /* SECTION 7 */

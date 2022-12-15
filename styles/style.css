@@ -25,8 +25,12 @@ summary {
 :root {
   /* startje */
   --color-text: #111;
+  --color-text-grey: #a4a4a4;
+  --color-text-white: #fff;
+
   --color-background: #eee;
   --color-tele2-yellow: #ffd300;
+  --color-tele2-black: #000;
 }
 
 /*******************/
@@ -46,6 +50,58 @@ footer > section a path {
 /* HEADER */
 /****************/
 
+body > header {
+  background-color: var(--color-tele2-black);
+}
+
+header > button {
+  background-color: var(--color-tele2-black);
+
+  border: none;
+}
+
+header > button svg {
+  fill: var(--color-text-white);
+}
+
+header > nav > ul {
+  list-style-type: none;
+  padding: 0.3em;
+  margin-bottom: 0;
+}
+
+header nav:first-of-type svg {
+  fill: var(--color-text-white);
+}
+
+header nav:nth-of-type(2) > ul a {
+  text-decoration: none;
+}
+
 /****************/
 /* FOOTER */
 /****************/
+
+footer section:first-of-type {
+  background-color: var(--color-tele2-yellow);
+}
+
+footer section:first-of-type section button {
+  background-color: var(--color-tele2-yellow);
+
+  border: none;
+}
+
+footer section:first-of-type section button {
+  background-color: var(--color-tele2-yellow);
+
+  border: none;
+}
+
+footer section ul {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+}

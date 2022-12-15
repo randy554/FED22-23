@@ -207,17 +207,24 @@ samen met je groepje opstellen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Hoewel ik wat verder had willen zijn dan waar ik nu ben, ben ik tevreden met mijn voortgang t.o.v. vorige week. De meeste content van mijn twee pagina zijn verwerkt. De voor mij wat lastige html onderdelen (FAQ gedeelte van mijn site) die zitten nu ook op hun plek. Het was even een uitdaging om erachter te komen hoe ik dit semantisch moest aanpakken. Uiteindelijk heb ik hulp van de docent gekregen om dit op te lossen. Ik kan me nu veel meer gaan richten op het stijlen.
+<br/><br/>
+<img src="readme-images/faq.png" width="375px" alt="omschrijving van de pagina">
+
+<caption>FAQ gedeelte van mijn website</caption>
+<br/><br/>
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Arsen | Randy                                                                                                                  | Josette | Tim |
+| ----- | ---------------------------------------------------------------------------------------------------------------------- | ------- | --- |
+| Arsen | Hoe kun je het verticaal positioneren van een list-style-image het besten aanpakken?                                   | Josette | Tim |
+| Arsen | Hoe verberg je zelfgemaakte semantische kopjes?                                                                        | Josette | Tim |
+| Arsen | Hoe schrijf je een zin waarin sommige woorden random wel of geen hoofdletters hebben?                                  | Josette | Tim |
+| Arsen | Als Header, footer gezamenlijke kleur bij general styling plaatsen (DRY) of beter ieder bij eigen selector declareren? | Josette | Tim |
+| Arsen | Hoe kan ik mijn CSS beter indelen?                                                                                     | Josette | Tim |
 
 ### Verslag van meeting
 
