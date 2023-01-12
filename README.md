@@ -218,13 +218,15 @@ Hoewel ik wat verder had willen zijn dan waar ik nu ben, ben ik tevreden met mij
 
 samen met je groepje opstellen
 
-| Arsen | Randy                                                                                                                  | Josette | Tim |
-| ----- | ---------------------------------------------------------------------------------------------------------------------- | ------- | --- |
-| Arsen | Hoe kun je het verticaal positioneren van een list-style-image het besten aanpakken?                                   | Josette | Tim |
-| Arsen | Hoe verberg je zelfgemaakte semantische kopjes?                                                                        | Josette | Tim |
-| Arsen | Hoe schrijf je een zin waarin sommige woorden random wel of geen hoofdletters hebben?                                  | Josette | Tim |
-| Arsen | Als Header, footer gezamenlijke kleur bij general styling plaatsen (DRY) of beter ieder bij eigen selector declareren? | Josette | Tim |
-| Arsen | Hoe kan ik mijn CSS beter indelen?                                                                                     | Josette | Tim |
+| Arsen | Randy                                                                                                                  | Josette                                                                                                              | Tim |
+| ----- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --- |
+| Arsen | Hoe kun je het verticaal positioneren van een list-style-image het besten aanpakken?                                   | Waarom werkt mijn hamburgermenu niet?                                                                                | Tim |
+| Arsen | Hoe verberg je zelfgemaakte semantische kopjes?                                                                        | Hoe komt het dat alles in mijn header te hoog staat terwijl ik het heb gecentreerd?                                  | Tim |
+| Arsen | Hoe schrijf je een zin waarin sommige woorden random wel of geen hoofdletters hebben?                                  | Hoe kan een afbeelding buiten beeld vallen zonder dat het beeld breder wordt?                                        | Tim |
+| Arsen | Als Header, footer gezamenlijke kleur bij general styling plaatsen (DRY) of beter ieder bij eigen selector declareren? | Kan ik een span gebruiken voor het hamburgermenu?                                                                    | Tim |
+| Arsen | Hoe kan ik mijn CSS beter indelen?                                                                                     | Op de Apple website zijn de categorieën in het hamburger menu background afbeeldingen. Kan ik dit beter tekst laten? | Tim |
+| Arsen | Randy                                                                                                                  | Zijn de afbeeldingen decoratief of niet?                                                                             | Tim |
+| Arsen | Randy                                                                                                                  | Is de footer ook een nav of niet en moeten de uitklapmenu’s werken?                                                  | Tim |
 
 ### Verslag van meeting
 

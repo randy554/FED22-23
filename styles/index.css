@@ -8,13 +8,38 @@
   --color-tele2-yellow: #ffd300;
 }
 
+@font-face {
+  font-family: checkman;
+  src: url("../fonts/tele2slabweb-heavy.woff2");
+}
+
+@font-face {
+  font-family: buttonText;
+  src: url("../fonts/tele2slabweb-bold.woff2");
+}
+
+@font-face {
+  font-family: listFont;
+  src: url("../fonts/tele2slabweb-regular.woff2");
+}
+
 /********/
 /* MAIN */
 /********/
 
 main > h1 {
+  display: none;
+
+  margin: 0;
+
   color: var(--color-text-white);
   background-color: var(--color-tele2-black);
+
+  font-family: checkman;
+}
+
+main h2 {
+  margin: 0;
 }
 
 /*************/
@@ -24,6 +49,42 @@ main > h1 {
 main section:first-of-type {
   background-color: var(--color-tele2-black);
   color: var(--color-text-white);
+}
+
+main section:first-of-type h2 {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--color-text-white);
+
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
+main section:first-of-type h2 strong {
+  color: var(--color-tele2-yellow);
+}
+
+main section:first-of-type ul {
+  font-family: listFont;
+  font-size: 1.3em;
+}
+
+main section:first-of-type a {
+  display: grid;
+
+  color: var(--color-text);
+  background-color: var(--color-tele2-yellow);
+
+  cursor: pointer;
+
+  border-radius: 2em;
+  padding: 1em;
+
+  font-family: buttonText;
+  justify-content: center;
+  text-decoration: none;
 }
 
 /*************/
@@ -48,6 +109,9 @@ main section:first-of-type {
 
 main > section:nth-of-type(6) ul:first-of-type {
   list-style-image: url("../images/icons/check_black_24dp.svg");
+}
+main > section:nth-of-type(6) ul:first-of-type li::marker {
+  background-color: #ffd300;
 }
 
 /*************/

@@ -38,8 +38,23 @@ summary {
 /* GENERAL STYLING */
 /*******************/
 body {
+  margin: 0;
   color: var(--color-text);
   background-color: var(--color-background);
+}
+
+body > header {
+  display: flex;
+  align-items: center;
+}
+
+header > a svg {
+  width: 5em;
+  height: 2em;
+}
+
+section > img {
+  width: 100%;
 }
 
 header > a path,
@@ -52,6 +67,9 @@ footer > section a path {
 /****************/
 
 body > header {
+  padding: 1em 0.5em;
+  height: 4.5em;
+
   background-color: var(--color-tele2-black);
 }
 
@@ -65,18 +83,41 @@ header > button svg {
   fill: var(--color-text-white);
 }
 
+header > nav:first-of-type {
+  margin-left: auto;
+}
+
+/* header nav:last-of-type {
+  flex-direction: column;
+} */
+
 header > nav > ul {
+  display: flex;
   list-style-type: none;
   padding: 0.3em;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+header > nav > ul > li {
+  padding: 0.5em;
 }
 
 header nav:first-of-type svg {
   fill: var(--color-text-white);
 }
 
+header nav:nth-of-type(2) {
+  position: fixed;
+  top: -22em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  height: 0;
+}
+
 header nav:nth-of-type(2) ul {
-  background-color: var(--color-text-white);
+  flex-direction: column;
 }
 
 header nav:nth-of-type(2) ul > li {
@@ -113,4 +154,14 @@ footer section ul {
 
 footer a {
   text-decoration: none;
+}
+
+header nav.open {
+  top: 4.5em;
+  height: 100%;
+  background-color: var(--color-text-white);
+}
+
+.dontScrollPls {
+  position: fixed;
 }
