@@ -49,6 +49,8 @@ main h2 {
 main section:first-of-type {
   background-color: var(--color-tele2-black);
   color: var(--color-text-white);
+
+  padding-bottom: 2.5em;
 }
 
 main section:first-of-type h2 {
@@ -77,8 +79,6 @@ main section:first-of-type a {
   color: var(--color-text);
   background-color: var(--color-tele2-yellow);
 
-  cursor: pointer;
-
   border-radius: 2em;
   padding: 1em;
 
@@ -91,33 +91,288 @@ main section:first-of-type a {
 /* SECTION 2 */
 /*************/
 
+main > section:nth-of-type(2) {
+  background-color: var(--color-background-white);
+}
+
+main > section:nth-of-type(2) h2 {
+  display: none;
+}
+
+main > section:nth-of-type(2) ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+main > section:nth-of-type(2) ul a {
+  display: grid;
+  justify-content: center;
+
+  color: var(--color-text);
+  /* background-color: var(--color-tele2-yellow); */
+
+  margin: 1em;
+  padding: 1em;
+  border-radius: 2em;
+
+  font-family: buttonText;
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+
+main > section:nth-of-type(2) ul > li:nth-child(1) a {
+  background-color: var(--btnColor-lightBlue);
+}
+main > section:nth-of-type(2) ul > li:nth-child(2) a {
+  background-color: var(--btnColor-blue);
+}
+main > section:nth-of-type(2) ul > li:nth-child(3) a {
+  background-color: var(--btnColor-purple);
+}
+main > section:nth-of-type(2) ul > li:nth-child(4) a {
+  background-color: var(--btnColor-pink);
+}
+
 /*************/
 /* SECTION 3 */
 /*************/
+
+main > section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--color-text-white);
+  background-color: var(--color-tele2-black);
+}
+
+main section:nth-of-type(3) ul {
+  font-family: listFont;
+  font-size: 1.3em;
+}
+
+main > section:nth-of-type(3) h2 {
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
+main > section:nth-of-type(3) a {
+  display: grid;
+  margin-top: 1em;
+  padding: 1em;
+
+  font-family: buttonText;
+
+  color: var(--color-text-white);
+
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
+main > section:nth-of-type(3) > a:nth-of-type(1) {
+  color: var(--color-text);
+  background-color: var(--btnColor-yellow);
+}
+main > section:nth-of-type(3) > a:nth-of-type(2) {
+  color: var(--btnColor-yellow);
+  background-color: var(--btnColor-black);
+
+  border: 0.1em solid var(--btnColor-yellow);
+}
 
 /*************/
 /* SECTION 4 */
 /*************/
 
+main > section:nth-of-type(4) {
+  color: var(--color-text);
+  background-color: var(--color-tele2-yellow);
+}
+
+main > section:nth-of-type(4) > h2 {
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
+main section:nth-of-type(4) ul {
+  font-family: listFont;
+  font-size: 1.3em;
+}
+
+main > section:nth-of-type(4) a {
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+
+  font-family: buttonText;
+
+  color: var(--color-text-white);
+  background-color: var(--color-text);
+
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
 /*************/
 /* SECTION 5 */
 /*************/
+
+main > section:nth-of-type(5) {
+  color: var(--color-text-white);
+  background-color: var(--color-tele2-black);
+}
+
+main > section:nth-of-type(5) h2 {
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
+main section:nth-of-type(5) ul {
+  font-family: listFont;
+  font-size: 1.3em;
+}
+
+main > section:nth-of-type(5) a {
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+
+  font-family: buttonText;
+
+  color: var(--color-text);
+  background-color: var(--btnColor-yellow);
+
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
+main > section:nth-of-type(5) p {
+  display: grid;
+  justify-content: center;
+}
 
 /*************/
 /* SECTION 6 */
 /*************/
 
+main > section:nth-of-type(6) h2 {
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
 main > section:nth-of-type(6) ul:first-of-type {
   list-style-image: url("../images/icons/check_black_24dp.svg");
+
+  font-family: listFont;
+  font-size: 1.3em;
 }
 main > section:nth-of-type(6) ul:first-of-type li::marker {
   background-color: #ffd300;
+}
+
+main > section:nth-of-type(6) a {
+  font-family: checkman;
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+
+  font-family: buttonText;
+
+  color: var(--color-text-white);
+  background-color: var(--btnColor-black);
+
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 2em;
 }
 
 /*************/
 /* SECTION 7 */
 /*************/
 
+main > section:nth-of-type(7) {
+  color: var(--color-text-white);
+  background-color: var(--color-tele2-black);
+}
+
+main > section:nth-of-type(7) h2 {
+  display: none;
+}
+
+main > section:nth-of-type(7) p:first-of-type,
+main > section:nth-of-type(7) p:nth-of-type(2) {
+  font-family: checkman;
+  font-size: 2.25em;
+  font-weight: lighter;
+}
+
+main > section:nth-of-type(7) p:nth-of-type(2) {
+  color: var(--color-tele2-yellow);
+}
+
+main > section:nth-of-type(7) p:nth-of-type(3) {
+  font-family: listFont;
+  font-weight: lighter;
+}
+
+main > section:nth-of-type(7) a {
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+
+  font-family: buttonText;
+
+  color: var(--color-text);
+  background-color: var(--btnColor-yellow);
+
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
 /*************/
 /* SECTION 8 */
 /*************/
+
+main > section:nth-of-type(8) {
+  color: var(--color-text-white);
+  background-color: var(--color-text-white);
+}
+
+main > section:nth-of-type(8) ul a {
+  display: grid;
+  justify-content: center;
+
+  color: var(--color-text);
+  /* background-color: var(--color-tele2-yellow); */
+
+  margin: 1em;
+  padding: 1em;
+  border-radius: 2em;
+
+  font-family: buttonText;
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+
+main > section:nth-of-type(8) ul > li:nth-child(1) a {
+  background-color: var(--btnColor-lightBlue);
+}
+main > section:nth-of-type(8) ul > li:nth-child(2) a {
+  background-color: var(--btnColor-blue);
+}
+main > section:nth-of-type(8) ul > li:nth-child(3) a {
+  background-color: var(--btnColor-purple);
+}
+main > section:nth-of-type(8) ul > li:nth-child(4) a {
+  background-color: var(--btnColor-pink);
+}

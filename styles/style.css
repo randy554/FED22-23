@@ -28,10 +28,18 @@ summary {
   --color-text-grey: #a4a4a4;
   --color-text-white: #fff;
 
+  --color-background-white: #fff;
   --color-background: #eee;
   --color-tele2-yellow: #ffd300;
   --color-tele2-black: #000;
   --color-tele2-border-grey: #f2f2f2;
+
+  --btnColor-yellow: #ffd300;
+  --btnColor-black: #000;
+  --btnColor-lightBlue: #009fdf;
+  --btnColor-blue: #005eb8;
+  --btnColor-purple: #702082;
+  --btnColor-pink: #d40f7d;
 }
 
 /*******************/
