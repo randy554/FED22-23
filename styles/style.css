@@ -140,6 +140,7 @@ header nav:nth-of-type(2) > ul a {
 /* FOOTER */
 /****************/
 
+/* First section */
 footer section:first-of-type {
   background-color: var(--color-tele2-yellow);
 }
@@ -154,6 +155,37 @@ footer section:first-of-type section button {
   background-color: var(--color-tele2-yellow);
 
   border: none;
+}
+
+/* Second section */
+footer > section:nth-of-type(2) {
+  background-color: var(--color-tele2-black);
+}
+
+footer > section:nth-of-type(2) h2 {
+  display: none;
+}
+
+footer > section:nth-of-type(2) ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+
+  /* font-family: listFont;
+  font-size: 0.92em; */
+}
+
+footer > section:nth-of-type(2) ul li {
+  padding: 0 0.7em 0.7em 0;
+}
+
+footer > section:nth-of-type(2) a {
+  color: var(--color-background-white);
+}
+
+footer section:nth-of-type(2) p {
+  color: var(--color-text-grey);
 }
 
 footer section ul {
