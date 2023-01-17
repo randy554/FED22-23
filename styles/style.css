@@ -329,4 +329,6 @@ header nav.open {
 
 .dontScrollPls {
   position: fixed;
+
+  width: 100%;
 }
