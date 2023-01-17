@@ -14,3 +14,12 @@ function openMenu() {
   navigationMenu.classList.toggle("open");
   body.classList.toggle("dontScrollPls"); //zodat de pagina zelf niet meer te scrollen is.
 }
+
+// hamburger menu sluiten
+
+window.addEventListener("keydown", (event) => {
+  if (event.key == "Escape") {
+    navigationMenu.classList.remove("open");
+    body.classList.remove("dontScrollPls"); //zodat de pagina zelf niet meer te scrollen is.
+  }
+});
