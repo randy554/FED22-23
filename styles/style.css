@@ -176,21 +176,92 @@ header nav:nth-of-type(2) ul > li:nth-of-type(7) a {
 /****************/
 
 /* First section */
-footer section:first-of-type {
+footer > section:first-of-type {
   background-color: var(--color-tele2-yellow);
+
+  padding-top: 1em;
+  padding-bottom: 5em;
 }
 
 footer section:first-of-type > h2 {
   display: none;
 }
 
-footer section:first-of-type > section > h3 {
+/* footer section:first-of-type > section > h3 {
+  font-family: listFont;
+} */
+
+/* TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST */
+
+footer section:first-of-type > section > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  gap: 1em;
+}
+
+/* footer section:first-of-type > section > ul > li > details::before,
+footer section:first-of-type > section > ul > li > details::after {
+  margin: 0;
+} */
+
+footer section:first-of-type > section > ul > li > details > summary {
+  padding: 1em;
+
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section:first-of-type > section > ul > li > details > ul > li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+footer section:first-of-type > section > ul > li > details > ul > li > a {
+  color: var(--tele2-text);
+
   font-family: listFont;
 }
 
+footer section:first-of-type > section > ul > li > details > summary::after {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  transition: 0.3s;
+
+  box-shadow: inset 0 0 0 0.125em currentcolor;
+
+  transform: translateY(-0.25em) rotate(45deg);
+
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+footer
+  section:first-of-type
+  > section
+  > ul
+  > li
+  > details[open]
+  > summary::after {
+  transform: translateY(0.25em) rotate(225deg);
+}
+
+footer section:first-of-type > section > ul > li > details > summary h3 {
+  font-family: listFont;
+  margin: 0;
+}
+
+/* TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST */
+
 footer section:first-of-type > section > ul > li {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  /* padding-top: 0.5em;
+  padding-bottom: 0.5em; */
 }
 
 footer section:first-of-type > section > ul > li > a {
