@@ -101,8 +101,11 @@ header > nav:first-of-type {
 
 header > nav > ul {
   display: flex;
+
   list-style-type: none;
-  padding: 0.3em;
+
+  /* padding: 0.3em; */
+  padding: 0;
   margin: 0;
 }
 
@@ -116,7 +119,7 @@ header nav:first-of-type svg {
 
 header nav:nth-of-type(2) {
   position: fixed;
-  top: -22em;
+  top: -35em;
   right: 0;
   bottom: 0;
   left: 0;
@@ -126,14 +129,46 @@ header nav:nth-of-type(2) {
 
 header nav:nth-of-type(2) ul {
   flex-direction: column;
+  flex: 1;
 }
 
 header nav:nth-of-type(2) ul > li {
   padding: 1em;
 }
 
-header nav:nth-of-type(2) > ul a {
+header nav:nth-of-type(2) > ul > li > a {
+  display: flex;
+  align-items: center;
+
   text-decoration: none;
+}
+
+header nav:nth-of-type(2) ul > li:first-of-type a,
+header nav:nth-of-type(2) ul > li:nth-of-type(2) a,
+header nav:nth-of-type(2) ul > li:nth-of-type(3) a {
+  justify-content: space-between;
+
+  color: var(--color-tele2-black);
+
+  font-family: buttonText;
+  font-size: 1.2em;
+}
+
+header nav:nth-of-type(2) ul > li {
+  border-top: 0.0625em solid var(--color-tele2-border-grey);
+  border-bottom: 0.0625em solid var(--color-tele2-border-grey);
+}
+
+header nav:nth-of-type(2) ul > li:nth-of-type(4) a,
+header nav:nth-of-type(2) ul > li:nth-of-type(5) a,
+header nav:nth-of-type(2) ul > li:nth-of-type(6) a,
+header nav:nth-of-type(2) ul > li:nth-of-type(7) a {
+  column-gap: 0.7em;
+
+  color: var(--color-tele2-black);
+
+  font-family: listFont;
+  font-size: 1.2em;
 }
 
 /****************/
@@ -143,6 +178,25 @@ header nav:nth-of-type(2) > ul a {
 /* First section */
 footer section:first-of-type {
   background-color: var(--color-tele2-yellow);
+}
+
+footer section:first-of-type > h2 {
+  display: none;
+}
+
+footer section:first-of-type > section > h3 {
+  font-family: listFont;
+}
+
+footer section:first-of-type > section > ul > li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+footer section:first-of-type > section > ul > li > a {
+  color: var(--tele2-text);
+
+  font-family: listFont;
 }
 
 footer section:first-of-type section button {
