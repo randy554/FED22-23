@@ -10,17 +10,17 @@
 
 @font-face {
   font-family: checkman;
-  src: url("../fonts/tele2slabweb-heavy.woff2");
+  src: url("../Fonts/tele2slabweb-heavy.woff2");
 }
 
 @font-face {
   font-family: buttonText;
-  src: url("../fonts/tele2slabweb-bold.woff2");
+  src: url("../Fonts/tele2slabweb-bold.woff2");
 }
 
 @font-face {
   font-family: listFont;
-  src: url("../fonts/tele2slabweb-regular.woff2");
+  src: url("../Fonts/tele2slabweb-regular.woff2");
 }
 
 /* @media screen(max-width:23.375em) {
