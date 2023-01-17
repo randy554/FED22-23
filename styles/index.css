@@ -23,6 +23,17 @@
   src: url("../fonts/tele2slabweb-regular.woff2");
 }
 
+/* @media screen(max-width:23.375em) {
+} */
+
+a:focus {
+  border: 0.3em solid green;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
 /********/
 /* MAIN */
 /********/
