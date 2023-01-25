@@ -248,29 +248,41 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+<figure>
+<img src="readme-images/melvin_test.jpeg" alt="Melvin voor een laptop aan het testen" />
+
+<figcaption><a href="https://github.com/Melvszz">@Melvin</a> aan het testen</figcaption>
+</figure>
+
 #### Screenreader
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+De test met de screenreader is goed verlopen. De headers die niet op de officiële
+Tele2 pagina worden gelezen worden op mijn pagina wel voorgelezen. Dit geldt ook voor andere content
+Zoals links en lijsten.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Het hamburger menu zorgt er wel voor dat het lang duurt voordat je naar de content op de pagina zelf kunt. Hier zou eventueel
+een optie toegevoegd kunnen worden om deze over te slaan.
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+De elementen op de pagina zijn goed bereikbaar via het toetsenbord. Ik had tijdelijk een groene kleur voor active gebruikt, deze zijn niet
+altijd goed zichtbaar, zoals bij elementen van soortgelijke kleur. Ik moet dit dus niet vergeten te vervangen met een passende kleur voor de verschillende states
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+<br>
 
-#### Motoriek (shocks, elastiekjes)
+<img src="readme-images/menu_active_state.png" alt="Screenshot van Tele2 menu in een active state" />
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+<br>
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+#### Visueel (contrast & kleurenblind).
 
-#### Visueel (brillen, contrast, kleurenblind, dark/light).
+Deze test is hebben wij door middel van de colorblindly extention uitgevoerd. Het contrast van de site is hebben wij als goed ervaren. Hetzelfde geldt ook voor de kleurenblind test. De Monochromacy / Achromatopsia level had het meest impact wat vermindering van kleur betreft, maar essentiële elementen zoals de buttons waren nog steeds vrij duidelijk te onderscheiden.<br>
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+<figure>
+<img src="readme-images/kleuren_test.jpeg" alt="Screenshot Tele2 website door middel van kleurenblind test" />
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+<figcaption>Kleurenblind test</figcaption>
+</figure>
 
 </details>
 
