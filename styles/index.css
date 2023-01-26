@@ -61,7 +61,10 @@ main section:first-of-type {
   background-color: var(--color-tele2-black);
   color: var(--color-text-white);
 
-  padding-bottom: 2.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 3.5em;
+  padding-top: 1.1em;
 }
 
 main section:first-of-type h2 {
@@ -73,6 +76,8 @@ main section:first-of-type h2 {
   font-family: checkman;
   font-size: 2.25em;
   font-weight: lighter;
+
+  line-height: 1em;
 }
 
 main section:first-of-type h2 strong {
@@ -104,6 +109,9 @@ main section:first-of-type a {
 
 main > section:nth-of-type(2) {
   background-color: var(--color-background-white);
+
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 main > section:nth-of-type(2) h2 {
@@ -157,6 +165,11 @@ main > section:nth-of-type(3) {
 
   color: var(--color-text-white);
   background-color: var(--color-tele2-black);
+
+  padding-top: 2em;
+  padding-bottom: 2.6em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 main section:nth-of-type(3) ul {
@@ -202,6 +215,11 @@ main > section:nth-of-type(3) > a:nth-of-type(2) {
 main > section:nth-of-type(4) {
   color: var(--color-text);
   background-color: var(--color-tele2-yellow);
+
+  padding-top: 2em;
+  padding-bottom: 2.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
 main > section:nth-of-type(4) > h2 {
@@ -217,7 +235,6 @@ main section:nth-of-type(4) ul {
 
 main > section:nth-of-type(4) a {
   display: grid;
-  margin: 1em;
   padding: 1em;
 
   font-family: buttonText;
@@ -237,6 +254,11 @@ main > section:nth-of-type(4) a {
 main > section:nth-of-type(5) {
   color: var(--color-text-white);
   background-color: var(--color-tele2-black);
+
+  padding-top: 2em;
+  padding-bottom: 1.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
 main > section:nth-of-type(5) h2 {
@@ -252,7 +274,6 @@ main section:nth-of-type(5) ul {
 
 main > section:nth-of-type(5) a {
   display: grid;
-  margin: 1em;
   padding: 1em;
 
   font-family: buttonText;
@@ -274,10 +295,19 @@ main > section:nth-of-type(5) p {
 /* SECTION 6 */
 /*************/
 
+main > section:nth-of-type(6) {
+  padding-top: 2em;
+  padding-bottom: 2.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
 main > section:nth-of-type(6) h2 {
   font-family: checkman;
   font-size: 2.25em;
   font-weight: lighter;
+
+  line-height: 1em;
 }
 
 main > section:nth-of-type(6) ul:first-of-type {
@@ -293,7 +323,6 @@ main > section:nth-of-type(6) ul:first-of-type li::marker {
 main > section:nth-of-type(6) a {
   font-family: checkman;
   display: grid;
-  margin: 1em;
   padding: 1em;
 
   font-family: buttonText;
@@ -311,8 +340,17 @@ main > section:nth-of-type(6) a {
 /*************/
 
 main > section:nth-of-type(7) {
+  padding-top: 2em;
+  padding-bottom: 2.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+
   color: var(--color-text-white);
   background-color: var(--color-tele2-black);
+}
+
+main > section:nth-of-type(7) p {
+  margin: 0;
 }
 
 main > section:nth-of-type(7) h2 {
@@ -324,6 +362,8 @@ main > section:nth-of-type(7) p:nth-of-type(2) {
   font-family: checkman;
   font-size: 2.25em;
   font-weight: lighter;
+
+  line-height: 1em;
 }
 
 main > section:nth-of-type(7) p:nth-of-type(2) {
@@ -332,12 +372,16 @@ main > section:nth-of-type(7) p:nth-of-type(2) {
 
 main > section:nth-of-type(7) p:nth-of-type(3) {
   font-family: listFont;
-  font-weight: lighter;
+  font-size: 1.3em;
+
+  line-height: 1.7em;
+
+  margin-top: 1.5em;
+  margin-bottom: 2em;
 }
 
 main > section:nth-of-type(7) a {
   display: grid;
-  margin: 1em;
   padding: 1em;
 
   font-family: buttonText;
@@ -357,6 +401,17 @@ main > section:nth-of-type(7) a {
 main > section:nth-of-type(8) {
   color: var(--color-text-white);
   background-color: var(--color-text-white);
+
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+main > section:nth-of-type(8) h2 {
+  display: none;
+}
+
+main > section:nth-of-type(8) ul {
+  padding: 0;
 }
 
 main > section:nth-of-type(8) ul a {
