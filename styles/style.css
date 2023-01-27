@@ -51,10 +51,10 @@ body {
   background-color: var(--color-background);
 }
 
-body > header {
+/* body > header {
   display: flex;
   align-items: center;
-}
+} */
 
 header > a svg {
   width: 5em;
@@ -75,10 +75,16 @@ footer > section a path {
 /****************/
 
 body > header {
+  display: flex;
+  align-items: center;
+
   padding: 1em 0.5em;
+
   height: 4.5em;
 
   background-color: var(--color-tele2-black);
+  position: sticky;
+  top: 0;
 }
 
 header > button {
