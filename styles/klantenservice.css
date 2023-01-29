@@ -4,6 +4,110 @@
 :root {
   /* startje */
   --color-text: #111;
+  --color-border-black: #262626;
   --color-background: #eee;
+  --color-tele2-white: #fff;
+  --color-tele2-purple: #702082;
   --color-tele2-yellow: #ffd300;
+  --color-tele2-black: #000;
+}
+
+@font-face {
+  font-family: checkman;
+  src: url("../Fonts/tele2slabweb-heavy.woff2");
+}
+
+@font-face {
+  font-family: buttonText;
+  src: url("../Fonts/tele2slabweb-bold.woff2");
+}
+
+@font-face {
+  font-family: listFont;
+  src: url("../Fonts/tele2slabweb-regular.woff2");
+}
+
+@media (min-width: 80em) {
+  body > nav {
+    background-color: var(--color-tele2-black);
+
+    border-bottom: 0.1em solid var(--color-border-black);
+
+    padding-bottom: 0.4em;
+  }
+
+  body > nav > ul {
+    margin: 0;
+  }
+
+  body > nav > ul > li {
+    list-style-type: none;
+  }
+
+  body > nav > ul > li > a {
+    color: var(--color-tele2-white);
+
+    text-decoration: none;
+
+    font-family: listFont;
+    font-size: 0.8em;
+  }
+
+  main > h1 {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--color-tele2-purple);
+    color: var(--color-tele2-white);
+
+    margin: 0;
+    padding: 0.8em 0;
+
+    font-family: buttonText;
+    font-weight: normal;
+    font-size: 1.6em;
+  }
+
+  main > section:first-of-type {
+    background-image: url(../images/background_night.png);
+    background-repeat: no-repeat;
+
+    margin: 3em;
+    border-radius: 0.5em;
+  }
+
+  main > section:first-of-type > h2 {
+    color: var(--color-tele2-white);
+
+    font-family: buttonText;
+    font-weight: normal;
+
+    margin: 0;
+  }
+
+  main > section:first-of-type > h3 {
+    color: var(--color-tele2-white);
+
+    font-family: checkman;
+    font-size: 4em;
+    font-weight: normal;
+
+    margin: 0;
+  }
+
+  main > section:first-of-type > img:nth-of-type(1) {
+    width: 10%;
+  }
+
+  main > section:first-of-type > img:nth-of-type(2) {
+    width: 2%;
+  }
+
+  main > section:first-of-type > ul {
+    list-style-type: none;
+  }
+
+  main > section:first-of-type > ul > li > a {
+    color: var(--color-tele2-white);
+  }
 }
