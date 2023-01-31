@@ -29,15 +29,24 @@
 
 @media (min-width: 80em) {
   body > nav {
+    display: flex;
+    justify-content: center;
+
     background-color: var(--color-tele2-black);
 
     border-bottom: 0.1em solid var(--color-border-black);
 
-    padding-bottom: 0.4em;
+    /* padding-bottom: 0.4em; */
   }
 
   body > nav > ul {
+    width: 80em;
+
+    display: flex;
+    gap: 1em;
+
     margin: 0;
+    padding: 0.2em 0;
   }
 
   body > nav > ul > li {
@@ -51,6 +60,15 @@
 
     font-family: listFont;
     font-size: 0.8em;
+  }
+
+  body > nav > ul > li:first-of-type > a {
+    font-family: buttonText;
+  }
+
+  body > main {
+    display: flex;
+    flex-direction: column;
   }
 
   main > h1 {
@@ -69,14 +87,29 @@
   }
 
   main > section:first-of-type {
+    align-self: center;
+
     background-image: url(../images/background_night.png);
     background-repeat: no-repeat;
 
     margin: 3em;
+    padding: 3em;
+
     border-radius: 0.5em;
+
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 2fr 3fr;
+    grid-template-columns: 2fr 1fr 3fr 2fr 2fr 2fr;
+
+    width: 80em;
+    height: 28.125em;
   }
 
   main > section:first-of-type > h2 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
     color: var(--color-tele2-white);
 
     font-family: buttonText;
@@ -86,6 +119,9 @@
   }
 
   main > section:first-of-type > h3 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+
     color: var(--color-tele2-white);
 
     font-family: checkman;
@@ -96,14 +132,29 @@
   }
 
   main > section:first-of-type > img:nth-of-type(1) {
-    width: 10%;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    width: 100%;
   }
 
   main > section:first-of-type > img:nth-of-type(2) {
-    width: 2%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    width: 20%;
+  }
+
+  main > section:first-of-type > form {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-end: 4;
   }
 
   main > section:first-of-type > ul {
+    grid-row-start: 6;
+
     list-style-type: none;
   }
 
