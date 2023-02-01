@@ -218,4 +218,41 @@
 
     order: 1;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-tele2-black);
+  }
+
+  footer > section:first-of-type {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer > section:first-of-type > section {
+    margin: 0 3em;
+  }
+
+  footer > section:first-of-type > section > h3 {
+    font-family: buttonText;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+
+  footer > section:first-of-type > section > button {
+    display: none;
+  }
+
+  footer section:first-of-type > section > ul > li > a:hover {
+    text-decoration: underline;
+  }
+
+  footer section:first-of-type > section > ul > li > a:active {
+    color: var(--color-tele2-purple);
+  }
+
+  footer > section:nth-of-type(2) {
+    align-self: center;
+  }
 }
