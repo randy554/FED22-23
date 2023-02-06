@@ -87,6 +87,7 @@ body > header {
   background-color: var(--color-tele2-black);
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 header > button {
