@@ -316,6 +316,20 @@
     padding-bottom: 3em;
   }
 
+  main > section:nth-of-type(2) > h2 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+
+    height: 0.0625em;
+    width: 0.0625em;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    white-space: nowrap;
+  }
+
   main > section:nth-of-type(2) > nav > ul {
     display: flex;
     padding: 0;
