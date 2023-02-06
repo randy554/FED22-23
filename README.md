@@ -327,19 +327,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <br>
 
-  <img src="readme-images/tele2_klantenservice_v8.png" width="375px" alt="uitomst opdracht 1">
+Klantenservice pagina
+<img src="readme-images/tele2_klantenservice_v8.png" width="375px" alt="uitomst opdracht 1">
 
   <br>
+
+Mobile menu
 
   <img src="readme-images/tele2_klantenservice_v9.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Accordion menu in footer
+
+Ik had aanvankelijk geen idee hoe ik dit semantisch correct kon aanpakken. Met hulp van de docent is dit uiteindelijk wel gelukt. Opvallend genoeg was dit met de `<details>` element die ik nooit in mijn html wel gebruik maar wel vaker in mijn README.
 
   <img src="readme-images/footer_menu.png" width="375px" alt="top">
   
 <br>
+
+Screenshot in Figma
 
   <img src="readme-images/tele2_klantenservice_v12.png" width="375px" alt="top">
 
@@ -351,9 +358,11 @@ Korte omschrijving met plaatjes
 
 <!-- Korte omschrijving met plaatjes -->
 
-  <img src="readme-images/tele2_klantenservice_v10." width="375px" alt="bummer">
+  <img src="readme-images/tele2_klantenservice_v10.png" width="375px" alt="bummer">
 
 De footer bevat een soort berg patroon. Deze heb ik helaas niet kunnen uitvoeren. Ik had even rond gegoogle hoe dit eventueel zou kunnen werken. Ik had daar niet direct antwoord op kunnen vinden en aangezien dit een nice to have was, heb ik prioriteit gegeven aan andere onderdelen van de site.
+
+<br>
 
 </details>
 
@@ -381,21 +390,21 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. **Voor het begrijpen van de `<details>` & `<summary>` elementen** <br>
    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
-5. **Voor het maken van een border aan de buitenkant van**
+5. **Voor het maken van een border aan de buitenkant van**<br>
    https://www.w3schools.com/css/css_outline.asp
 
-6. **Voor het animeren van de input placeholder**
+6. **Voor het animeren van de input placeholder**<br>
    https://codepen.io/shooft/pen/VwBbNVm
 
-7. **Voor het maken van een lijst met tekst en afbeeldingen**
+7. **Voor het maken van een lijst met tekst en afbeeldingen**<br>
    https://codepen.io/shooft/pen/xxzvjEd
 
-8. **Voor het maken van een accordion menu**
+8. **Voor het maken van een accordion menu**<br>
    https://codepen.io/shooft/pen/xxzoqXW
 
-9.**Voor het genereren van box-shadow code**
-https://www.cssmatic.com/box-shadow
+9. **Voor het genereren van box-shadow code**<br>
+   https://www.cssmatic.com/box-shadow
 
-10. **Voor het screenreader-vriendelijk verstoppen van elementen**
+10. **Voor het screenreader-vriendelijk verstoppen van elementen**<br>
 https://www.a11yproject.com/posts/how-to-hide-content/
 </details>
