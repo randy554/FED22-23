@@ -12,6 +12,10 @@
   --color-tele2-yellow: #ffd300;
   --color-tele2-black: #000;
   --color-tele2-background-grey: #f5f5f5;
+
+  --form-color-grey: #777777;
+  --form-color-blue: #0096d1;
+  --form-color-lightPurple: #a979b4;
 }
 
 @font-face {
@@ -97,12 +101,12 @@
     background-repeat: no-repeat;
 
     margin: 3em;
-    padding: 3em;
+    padding: 2em 3em;
 
     border-radius: 0.5em;
 
     display: grid;
-    grid-template-rows: repeat(4, 1fr) 2fr 3fr;
+    grid-template-rows: repeat(4, 1fr) 4em 3fr;
     grid-template-columns: 2fr 1fr 3fr 2fr 2fr 2fr;
 
     width: 80em;
@@ -119,7 +123,8 @@
     font-family: buttonText;
     font-weight: normal;
 
-    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1.3em;
   }
 
   main > section:first-of-type > h3 {
@@ -129,7 +134,7 @@
     color: var(--color-tele2-white);
 
     font-family: checkman;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: normal;
 
     margin: 0;
@@ -146,20 +151,134 @@
   main > section:first-of-type > img:nth-of-type(2) {
     grid-column-start: 2;
     grid-row-start: 2;
+    align-self: center;
 
-    width: 20%;
+    width: auto;
+
+    /* padding-left: 1.1em; */
   }
 
   main > section:first-of-type > form {
     grid-column-start: 1;
     grid-row-start: 5;
-    grid-column-end: 4;
+    grid-column-end: 5;
+
+    display: grid;
+    grid-template-columns: 75% auto;
+    position: relative;
+  }
+
+  main > section:first-of-type > form > input {
+    margin-right: 2em;
+    border-radius: 0.7em;
+    border: none;
+  }
+
+  main > section:first-of-type > form > input[type="text"] {
+    padding-left: 1em;
+  }
+
+  main > section:first-of-type > form > input::placeholder {
+    font-size: 1.2em;
+    font-family: listFont;
+
+    color: var(--form-color-grey);
+  }
+
+  main > section:first-of-type > form > input:focus {
+    padding: 2em 0.8em 0.2em;
+
+    border: 0.0625em solid var(--form-color-blue);
+
+    outline: 0.125em solid var(--form-color-blue);
+  }
+
+  main > section:first-of-type > form > input:focus + label {
+    transform: translateY(-0.8em);
+
+    color: var(--form-color-blue);
+
+    font-size: 0.8em;
+  }
+
+  main > section:first-of-type > form > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 71.6%;
+    font-size: 1em;
+    font-family: listFont;
+    color: var(--form-color-grey);
+    padding-left: 0.8em;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.3s;
+  }
+
+  main > section:first-of-type > form > button {
+    color: var(--color-tele2-white);
+    background-color: var(--btnColor-purple);
+
+    border: none;
+    border-radius: 2em;
+
+    font-family: buttonText;
+    font-size: 1em;
+
+    margin: 0 0.8em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main > section:first-of-type > form > button > img {
+    height: 1.25em;
+
+    margin-left: 0.5em;
+  }
+
+  main > section:first-of-type > form > button:hover {
+    background-color: var(--form-color-lightPurple);
   }
 
   main > section:first-of-type > ul {
     grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
 
     list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    height: 10em;
+
+    padding-left: 0;
+    margin-top: 2em;
+
+    font-family: listFont;
+  }
+
+  main > section:first-of-type > ul > li::before {
+    content: "";
+    display: block;
+
+    width: 2em;
+    height: 2em;
+
+    background-image: url(../images/chat-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  main > section:first-of-type > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
   }
 
   main > section:first-of-type > ul > li > a {
@@ -252,6 +371,10 @@
     padding: 0.8em;
 
     cursor: pointer;
+  }
+
+  main > section:nth-of-type(3) nav > ul > li:hover {
+    opacity: 0.8;
   }
 
   main > section:nth-of-type(3) nav > ul > li:first-of-type {
