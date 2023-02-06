@@ -23,9 +23,6 @@
   src: url("../Fonts/tele2slabweb-regular.woff2");
 }
 
-/* @media screen(max-width:23.375em) {
-} */
-
 a:focus {
   border: 0.3em solid green;
 }
@@ -34,6 +31,7 @@ a:hover,
 a:active {
   text-decoration: underline;
 }
+
 /********/
 /* MAIN */
 /********/
@@ -131,7 +129,6 @@ main > section:nth-of-type(2) ul a {
   justify-content: center;
 
   color: var(--color-text);
-  /* background-color: var(--color-tele2-yellow); */
 
   margin: 1em;
   padding: 1em;
@@ -419,7 +416,6 @@ main > section:nth-of-type(8) ul a {
   justify-content: center;
 
   color: var(--color-text);
-  /* background-color: var(--color-tele2-yellow); */
 
   margin: 1em;
   padding: 1em;

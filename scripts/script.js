@@ -1,5 +1,4 @@
 // JavaScript Document
-console.log("hi");
 
 //Stap 1: Variabel declareren (hoe heet mijn html element en waar staat dit)
 var body = document.querySelector("body");

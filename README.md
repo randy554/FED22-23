@@ -325,18 +325,37 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
   <img src="readme-images/final_tele2_home.png" width="375px" alt="uitomst opdracht 1">
 
+<br>
+
+  <img src="readme-images/tele2_klantenservice_v8.png" width="375px" alt="uitomst opdracht 1">
+
+  <br>
+
+  <img src="readme-images/tele2_klantenservice_v9.png" width="375px" alt="uitomst opdracht 1">
+
 ### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
   <img src="readme-images/footer_menu.png" width="375px" alt="top">
+  
+<br>
+
+  <img src="readme-images/tele2_klantenservice_v12.png" width="375px" alt="top">
+
+  <br>
+
+  <img src="readme-images/tele2_klantenservice_v11.png" width="375px" alt="top">
 
 ### Dit was lastig/Is niet gelukt:
 
 <!-- Korte omschrijving met plaatjes -->
 
-  <!-- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details> -->
+  <img src="readme-images/tele2_klantenservice_v10." width="375px" alt="bummer">
+
+De footer bevat een soort berg patroon. Deze heb ik helaas niet kunnen uitvoeren. Ik had even rond gegoogle hoe dit eventueel zou kunnen werken. Ik had daar niet direct antwoord op kunnen vinden en aangezien dit een nice to have was, heb ik prioriteit gegeven aan andere onderdelen van de site.
+
+</details>
 
 ## Bronnenlijst
 
@@ -362,4 +381,21 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. **Voor het begrijpen van de `<details>` & `<summary>` elementen** <br>
    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
+5. **Voor het maken van een border aan de buitenkant van**
+   https://www.w3schools.com/css/css_outline.asp
+
+6. **Voor het animeren van de input placeholder**
+   https://codepen.io/shooft/pen/VwBbNVm
+
+7. **Voor het maken van een lijst met tekst en afbeeldingen**
+   https://codepen.io/shooft/pen/xxzvjEd
+
+8. **Voor het maken van een accordion menu**
+   https://codepen.io/shooft/pen/xxzoqXW
+
+9.**Voor het genereren van box-shadow code**
+https://www.cssmatic.com/box-shadow
+
+10. **Voor het screenreader-vriendelijk verstoppen van elementen**
+https://www.a11yproject.com/posts/how-to-hide-content/
 </details>
