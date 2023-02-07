@@ -67,7 +67,7 @@
     display: none;
   }
 
-  body > header > nav:first-of-type > ul > li:last-of-type {
+  body > nav:first-of-type > ul > li:nth-of-type(3) {
     margin-left: auto;
   }
 
