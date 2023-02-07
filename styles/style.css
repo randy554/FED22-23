@@ -247,11 +247,6 @@ footer section:first-of-type > section > ul > li > details > summary h3 {
   margin: 0;
 }
 
-footer section:first-of-type > section > ul > li {
-  /* padding-top: 0.5em;
-  padding-bottom: 0.5em; */
-}
-
 footer section:first-of-type > section > ul > li > a {
   color: var(--tele2-text);
 
