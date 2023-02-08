@@ -406,5 +406,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
    https://www.cssmatic.com/box-shadow
 
 10. **Voor het screenreader-vriendelijk verstoppen van elementen**<br>
-https://www.a11yproject.com/posts/how-to-hide-content/
+    https://www.a11yproject.com/posts/how-to-hide-content/
+
+11. **Voor screenreader shortcuts **
+https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts#vo-mac-basics
 </details>
