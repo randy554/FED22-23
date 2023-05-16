@@ -34,23 +34,6 @@
 }
 
 @media (min-width: 80em) {
-  body > header {
-    display: flex;
-    align-items: center;
-
-    padding: 1em 19.5em;
-
-    height: 4.5em;
-
-    background-color: var(--color-tele2-black);
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 10;
-  }
-
   body > header > a {
     margin-right: 3em;
   }
@@ -78,15 +61,6 @@
   /********/
   /* NAV */
   /********/
-
-  body > nav {
-    display: flex;
-    justify-content: center;
-
-    background-color: var(--color-tele2-black);
-
-    border-bottom: 0.1em solid var(--color-border-black);
-  }
 
   body > nav > ul {
     width: 80em;

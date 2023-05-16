@@ -1,9 +1,12 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+/* Global scope variables */
 :root {
   /* startje */
   --color-text: #111;
+  --color-text-white: #fff;
   --color-background: #eee;
   --color-tele2-yellow: #ffd300;
 }
@@ -21,10 +24,6 @@
 @font-face {
   font-family: listFont;
   src: url("../Fonts/tele2slabweb-regular.woff2");
-}
-
-a:focus {
-  border: 0.3em solid green;
 }
 
 a:hover,
@@ -482,7 +481,7 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
     grid-gap: 1em;
     grid-template-columns: 1fr 1fr;
 
-    margin: 1em 0 0 0.8em;
+    margin: 0 1em;
     padding: 0;
 
     list-style-type: none;
@@ -502,5 +501,19 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
     font-family: buttonText;
     font-size: 1.1em;
     text-decoration: none;
+  }
+
+  main > section:nth-of-type(2) ul > li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.11em;
+    text-underline-offset: 0.3em;
+    text-decoration-color: var(--color-text-white);
+  }
+
+  @supports (text-decoration: underline white 0.11em) {
+    main > section:nth-of-type(2) ul > li a:hover {
+      text-decoration: underline var(--color-text-white) 0.11em;
+      text-underline-offset: 0.3em;
+    }
   }
 }
