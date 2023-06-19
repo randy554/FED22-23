@@ -386,9 +386,10 @@ header nav.open {
 @media (min-width: 64em) {
   body > header {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
 
-    padding: 1em 19.5em;
+    padding: 1em 5em;
 
     height: 4.5em;
 
@@ -533,6 +534,13 @@ header nav.open {
     font-size: 1.1em;
   }
 
+  header nav:nth-of-type(2) ul > li:first-of-type a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(2) a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(3) a:hover {
+    color: var(--color-tele2-black);
+    background-color: var(--color-background-white);
+  }
+
   body > header > nav:nth-of-type(2) ul > li:nth-of-type(4) {
     margin-left: auto;
   }
@@ -562,5 +570,40 @@ header nav.open {
 
   header nav:nth-of-type(2) ul > li:nth-of-type(7) {
     display: none;
+  }
+
+  #winkelmandContainer2 {
+    position: relative;
+  }
+
+  #notificatie2 {
+    border-radius: 50%;
+
+    position: absolute;
+    /* top: -1.7em;
+    left: 0.9em; */
+    top: -0.6em;
+    left: 0.8em;
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    height: 20px;
+    width: 20px;
+
+    text-align: center;
+    color: var(--color-text-white);
+
+    background-color: var(--background-color-orange);
+
+    font-family: listFont;
+    font-size: 0.7em;
+    font-weight: bold;
   }
 }
