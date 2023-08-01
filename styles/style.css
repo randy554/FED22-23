@@ -386,10 +386,10 @@ header nav.open {
 @media (min-width: 64em) {
   body > header {
     display: flex;
-    /* align-items: center; */
+
     justify-content: center;
 
-    padding: 1em 5em;
+    padding: 0;
 
     height: 4.5em;
 
@@ -495,11 +495,8 @@ header nav.open {
     display: flex;
     align-self: center;
 
-    top: 0;
-    left: 19em;
-    right: 19em;
+    height: 100%;
 
-    height: auto;
     position: unset;
   }
 
@@ -513,10 +510,15 @@ header nav.open {
     margin: 0;
 
     width: 73em;
+    height: 100%;
   }
 
   body > header > nav:nth-of-type(2) ul > li {
     border: none;
+
+    height: 100%;
+
+    padding: 0;
   }
 
   header nav:nth-of-type(2) ul > li:first-of-type a,
@@ -532,6 +534,10 @@ header nav.open {
 
     font-family: buttonText;
     font-size: 1.1em;
+
+    height: 100%;
+
+    padding: 0 1em;
   }
 
   header nav:nth-of-type(2) ul > li:first-of-type a:hover,
@@ -550,9 +556,28 @@ header nav.open {
   header nav:nth-of-type(2) ul > li:nth-of-type(6) a,
   header nav:nth-of-type(2) ul > li:nth-of-type(7) a {
     column-gap: 0.7em;
+
     color: var(--color-tele2-white);
+
     font-family: listFont;
     font-size: 1.2em;
+
+    height: 100%;
+
+    padding: 0 0.75em;
+  }
+
+  header nav:nth-of-type(2) ul > li:nth-of-type(4) a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(5) a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(6) a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(7) a:hover,
+  header nav:nth-of-type(2) ul > li:nth-of-type(4) a:hover > svg,
+  header nav:nth-of-type(2) ul > li:nth-of-type(5) a:hover > svg,
+  header nav:nth-of-type(2) ul > li:nth-of-type(6) a:hover > svg,
+  header nav:nth-of-type(2) ul > li:nth-of-type(7) a:hover > svg {
+    color: var(--color-tele2-black);
+    background-color: var(--color-background-white);
+    fill: var(--color-tele2-black);
   }
 
   header nav:nth-of-type(2) ul > li:nth-of-type(4) a > svg,
@@ -560,6 +585,11 @@ header nav.open {
   header nav:nth-of-type(2) ul > li:nth-of-type(6) a > svg,
   header nav:nth-of-type(2) ul > li:nth-of-type(7) a > svg {
     fill: var(--color-tele2-white);
+  }
+
+  header nav:nth-of-type(2) ul > li:nth-of-type(4) a > svg,
+  header nav:nth-of-type(2) ul > li:nth-of-type(5) a > svg {
+    margin-right: -0.4em;
   }
 
   header nav:nth-of-type(2) ul > li:nth-of-type(6) > a::first-letter {
@@ -582,8 +612,8 @@ header nav.open {
     position: absolute;
     /* top: -1.7em;
     left: 0.9em; */
-    top: -0.6em;
-    left: 0.8em;
+    top: 1.4em;
+    right: 0.8em;
 
     z-index: 1;
 
@@ -603,7 +633,7 @@ header nav.open {
     background-color: var(--background-color-orange);
 
     font-family: listFont;
-    font-size: 0.7em;
+    font-size: 0.6875rem;
     font-weight: bold;
   }
 }
