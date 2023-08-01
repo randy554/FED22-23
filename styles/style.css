@@ -636,4 +636,14 @@ header nav.open {
     font-size: 0.6875rem;
     font-weight: bold;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-tele2-black);
+  }
+
+  footer > section:nth-of-type(2) {
+    align-self: center;
+  }
 }
