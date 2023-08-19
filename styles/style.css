@@ -47,6 +47,8 @@ summary {
   --btnColor-blue: #005eb8;
   --btnColor-purple: #702082;
   --btnColor-pink: #d40f7d;
+
+  --form-color-blue: #0096d1;
 }
 
 /*******************/
@@ -179,113 +181,104 @@ header nav:nth-of-type(2) ul > li:nth-of-type(7) a {
   font-size: 1.2em;
 }
 
+header nav.open {
+  top: 4.5em;
+  height: 100%;
+  background-color: var(--color-text-white);
+}
+
 /****************/
 /* FOOTER */
 /****************/
 
+footer {
+  background-color: var(--color-tele2-yellow);
+}
+
+footer a {
+  text-decoration: none;
+}
+
 /* First section */
 footer > section:first-of-type {
+  display: grid;
+
   background-color: var(--color-tele2-yellow);
 
-  padding-top: 1em;
-  padding-bottom: 10em;
+  padding: 1em 1em 10em 1em;
+
+  --uitklaptijd: 0.3s;
 }
 
 footer section:first-of-type > h2 {
   display: none;
 }
 
-footer section:first-of-type > section > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  display: grid;
-  gap: 1em;
-}
-
-footer section:first-of-type > section > ul > li > details > summary {
-  padding: 0.4em 1em;
-
-  list-style: none;
-
+footer > section:first-of-type > section > h3 {
   display: flex;
-  justify-content: space-between;
+  flex-grow: 1;
   align-items: center;
-}
 
-footer section:first-of-type > section > ul > li > details > ul > li {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
+  margin: 0;
 
-footer section:first-of-type > section > ul > li > details > ul > li > a {
-  color: var(--tele2-text);
-
-  font-family: listFont;
-}
-
-footer section:first-of-type > section > ul > li > details > summary::after {
-  /* content: ""; */
-  /* content: url("../images/icons/expandMore_opsz40.svg"); */
-  content: url("../images/icons/expand_more_black_36dp.svg");
-  display: block;
-  /* width: 1em;
-  height: 1em; */
-  /* transition: 0.3s; */
-  transition: 0.3s;
-
-  /* box-shadow: inset 0 0 0 0.125em currentcolor;
-
-  transform: translateY(-0.25em) rotate(45deg);
-
-  clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%); */
-}
-
-footer
-  section:first-of-type
-  > section
-  > ul
-  > li
-  > details[open]
-  > summary::after {
-  /* transform: translateY(0.25em) rotate(-180deg); */
-  transform: rotate(-180deg);
-}
-
-/* footer
-  section:first-of-type
-  > section
-  > ul
-  > li
-  > details[open]
-  > summary::after {
-  transform: translateY(0.25em) rotate(225deg);
-} */
-
-footer section:first-of-type > section > ul > li > details > summary h3 {
   font-family: buttonText;
   font-weight: lighter;
 
+  cursor: pointer;
+}
+
+footer > section:first-of-type > section > button {
+  background-color: var(--color-tele2-yellow);
+
+  width: 3em;
+
+  aspect-ratio: 1/1;
+
+  border: none;
+}
+
+footer > section:first-of-type > section > button > img {
+  transition: var(--uitklaptijd);
+}
+
+footer > section:first-of-type > section.open > button > img {
+  transform: rotate(-0.5turn);
+}
+
+footer > section:first-of-type > section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer > section:first-of-type > section > ul {
   margin: 0;
+  padding: 0;
+
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+
+  list-style: none;
+
+  transition: max-height, var(--uitklaptijd) ease-in-out;
+}
+
+footer > section:first-of-type > section.open > ul {
+  max-height: 25em;
+}
+
+footer > section:first-of-type > section > ul > li:first-of-type {
+  margin-top: 1em;
+}
+
+footer > section:first-of-type > section > ul > li {
+  margin-bottom: 1em;
 }
 
 footer section:first-of-type > section > ul > li > a {
   color: var(--tele2-text);
 
   font-family: listFont;
-}
-
-footer section:first-of-type section button {
-  background-color: var(--color-tele2-yellow);
-
-  border: none;
-}
-
-footer section:first-of-type section button {
-  background-color: var(--color-tele2-yellow);
-
-  border: none;
 }
 
 /* Second section */
@@ -332,16 +325,6 @@ footer section ul {
   list-style-type: none;
 }
 
-footer a {
-  text-decoration: none;
-}
-
-header nav.open {
-  top: 4.5em;
-  height: 100%;
-  background-color: var(--color-text-white);
-}
-
 .dontScrollPls {
   position: fixed;
 
@@ -381,6 +364,68 @@ header nav.open {
 
 #winkelmandContainer {
   position: relative;
+}
+
+@media (min-width: 48em) {
+  footer > section:first-of-type {
+    display: grid;
+    gap: 1.8em;
+    padding: 2em 1em 10em 1em;
+
+    max-width: 48em;
+    margin-left: auto;
+    margin-right: auto;
+
+    --uitklaptijd: 0.3s;
+  }
+
+  footer > section:first-of-type > section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer > section:first-of-type > section > h3 {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+    margin: 0;
+
+    font-family: buttonText;
+    font-weight: lighter;
+
+    cursor: pointer;
+  }
+
+  footer > section:first-of-type > section > button {
+    width: 3em;
+    aspect-ratio: 1/1;
+  }
+
+  footer > section:first-of-type > section > button > img {
+    transition: var(--uitklaptijd);
+  }
+
+  footer > section:first-of-type > section.open > button > img {
+    transform: rotate(-0.5turn);
+  }
+
+  footer > section:first-of-type > section > ul {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+
+    list-style: none;
+
+    transition: max-height, var(--uitklaptijd) ease-in-out;
+  }
+
+  footer > section:first-of-type > section.open > ul {
+    max-height: 25em;
+  }
 }
 
 @media (min-width: 64em) {
@@ -637,12 +682,80 @@ header nav.open {
     font-weight: bold;
   }
 
+  /****************/
+  /* FOOTER */
+  /****************/
+
   footer {
     display: flex;
     flex-direction: column;
     background-color: var(--color-tele2-black);
   }
 
+  footer > section:first-of-type {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+
+    max-width: 100%;
+    margin: 0;
+  }
+
+  footer > section:first-of-type > section {
+    display: unset;
+    margin: 0 3em;
+  }
+
+  footer > section:first-of-type > section > h3 {
+    font-family: buttonText;
+    font-size: 2em;
+    font-weight: lighter;
+
+    margin-bottom: 1em;
+  }
+
+  footer > section:first-of-type > section > button {
+    display: none;
+  }
+
+  footer > section:first-of-type > section > ul {
+    max-height: unset;
+    overflow: unset;
+  }
+
+  footer > section:first-of-type > section > ul > li {
+    margin-bottom: 1em;
+  }
+
+  /* ----------------------------  States  ------------------------ */
+
+  footer section:first-of-type > section > ul > li > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+
+    color: var(--form-color-blue);
+  }
+
+  footer section:first-of-type > section > ul > li > a:active {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+
+    font-weight: bold;
+
+    color: var(--form-color-blue);
+  }
+
+  footer section:first-of-type > section > ul > li > a:focus {
+    color: var(--color-tele2-black);
+    font-weight: bold;
+  }
+
+  /* ----------------------------  States  ------------------------ */
+  footer > section:nth-of-type(2) {
+    align-self: center;
+  }
+
+  /* 2nd footer section */
   footer > section:nth-of-type(2) {
     align-self: center;
   }

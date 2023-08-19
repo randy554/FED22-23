@@ -22,3 +22,43 @@ window.addEventListener("keydown", (event) => {
     body.classList.remove("dontScrollPls"); //zodat de pagina zelf niet meer te scrollen is.
   }
 });
+
+// Footer mobile menu
+
+let arrowMenuButtons = document.querySelectorAll(
+  "footer > section:first-of-type > section > button"
+);
+let headerMenuButtons = document.querySelectorAll(
+  "footer > section:first-of-type > section > h3"
+);
+
+arrowMenuButtons.forEach((arrowMenuButton) => {
+  arrowMenuButton.addEventListener("click", toggleMenu);
+});
+
+headerMenuButtons.forEach((headerMenuButton) => {
+  headerMenuButton.addEventListener("click", toggleMenu);
+});
+
+function toggleMenu() {
+  // let button = event.target;
+  // let section = button.parentElement;
+  // let content = section.querySelector("section");
+
+  // content.classList.toggle("open");
+  // button.classList.toggle("open");
+
+  // let theButtonThatWasClicked = event.target;
+
+  console.log("toggleMenu");
+
+  // De button die geklikt is (button of h3 element)
+  let theButtonThatWasClicked = this;
+
+  // Vindt de section die de geklikte button bevat
+  let theSectionThatHoldsTheClickedButton =
+    theButtonThatWasClicked.closest("section");
+
+  // Toggle de class open op de section
+  theSectionThatHoldsTheClickedButton.classList.toggle("open");
+}
