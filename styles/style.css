@@ -642,7 +642,6 @@ footer section ul {
   }
 
   header nav:nth-of-type(2) ul > li:nth-of-type(6) > a::first-letter {
-    /* content: "sfioef"; */
     border: 1px solid red;
     color: red;
   }
