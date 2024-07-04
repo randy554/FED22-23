@@ -370,7 +370,7 @@ footer section ul {
   footer > section:first-of-type {
     display: grid;
     gap: 1.8em;
-    padding: 2em 1em 10em 1em;
+    padding: 2em 2em 10em 2em;
 
     max-width: 48em;
     margin-left: auto;
@@ -425,6 +425,12 @@ footer section ul {
 
   footer > section:first-of-type > section.open > ul {
     max-height: 25em;
+  }
+
+  footer > section:nth-of-type(2) {
+    background-color: var(--color-tele2-black);
+  
+    padding: 1.5em 2em 1em 2em;
   }
 }
 
