@@ -475,7 +475,12 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
     align-self: start;
   }
 
+  /*************/
+  /* SECTION 2 */
+  /*************/
+  
   main > section:nth-of-type(2) {
+
     background-color: var(--color-background-white);
   
     padding-top: 3em;
@@ -527,7 +532,6 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
   /*************/
   /* SECTION 3 */
   /*************/
-
 
   main > section:nth-of-type(3) {
     display: grid;
@@ -837,4 +841,111 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
       text-underline-offset: 0.3em;
     }
   }
+}
+
+@media (min-width: 64em) {  
+
+  /*************/
+  /* SECTION 1 */
+  /*************/
+
+  main > section:first-of-type {
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-content: center;
+  }
+
+  main > section:first-of-type > a:first-of-type {
+    display: inline-block;
+    justify-self: start;
+  }
+  
+  
+  /*************/
+  /* SECTION 2 */
+  /*************/
+  main > section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--color-background-white);
+  
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  main > section:nth-of-type(2) > nav > ul {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: minmax(15em, 19.5em) minmax(14em, 19.5em) minmax(14em, 19.5em) minmax(14em, 19.5em);
+
+    /* margin: 0 1em; */
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  /*************/
+  /* SECTION 3 */
+  /*************/
+  main > section:nth-of-type(3) {
+
+  }
+  /*************/
+  /* SECTION 4 */
+  /*************/
+  main > section:nth-of-type(4) {
+
+  }
+  /*************/
+  /* SECTION 5 */
+  /*************/
+  main > section:nth-of-type(5) {
+
+  }
+  /*************/
+  /* SECTION 6 */
+  /*************/
+  main > section:nth-of-type(6) {
+
+  }
+  /*************/
+  /* SECTION 7 */
+  /*************/
+  main > section:nth-of-type(7) {
+
+  }
+  /*************/
+  /* SECTION 8 */
+  /*************/
+  main > section:nth-of-type(8) {
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--color-background-white);
+  
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+  }
+
+  main > section:nth-of-type(8) > nav > ul {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: minmax(15em, 19.5em) minmax(14em, 19.5em) minmax(14em, 19.5em) minmax(14em, 19.5em);
+
+    /* margin: 0 1em; */
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+  
 }

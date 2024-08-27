@@ -372,7 +372,7 @@ footer section ul {
     gap: 1.8em;
     padding: 2em 2em 10em 2em;
 
-    max-width: 48em;
+    /* max-width: 48em; */
     margin-left: auto;
     margin-right: auto;
 
