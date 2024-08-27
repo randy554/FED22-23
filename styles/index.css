@@ -893,30 +893,41 @@ main > section:nth-of-type(8) ul > li:nth-child(4) a {
   /* SECTION 3 */
   /*************/
   main > section:nth-of-type(3) {
-
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    justify-content: center;
   }
   /*************/
   /* SECTION 4 */
   /*************/
   main > section:nth-of-type(4) {
-
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    justify-content: center;
   }
   /*************/
   /* SECTION 5 */
   /*************/
   main > section:nth-of-type(5) {
-
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    justify-content: center;
   }
   /*************/
   /* SECTION 6 */
   /*************/
   main > section:nth-of-type(6) {
-
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    justify-content: center;
   }
   /*************/
   /* SECTION 7 */
   /*************/
   main > section:nth-of-type(7) {
+    display: grid;
+    grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+    justify-content: center;
 
   }
   /*************/

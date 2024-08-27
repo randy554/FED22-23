@@ -1,0 +1,29 @@
+
+/* Hero Section */
+@media (min-width: 64em) {
+    main > section:first-of-type {
+      display: grid;
+      grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+      grid-template-rows: 1fr 2fr 1fr;
+      justify-content: center;
+    }
+}
+
+/* Product Section 1 */
+main > section:first-of-type {
+  display: grid;
+  grid-template-columns: minmax(auto, 39.75em) minmax(auto, 39.75em);
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-content: center;
+}
+
+/* Product Section 4 */
+@media (min-width: 48em) {
+    main > section:nth-of-type(4) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 3fr;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  }
